@@ -52,7 +52,8 @@ config :livin, LivinWeb.Endpoint,
       ~r{priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$},
       ~r{priv/gettext/.*(po)$},
       ~r{lib/livin_web/views/.*(ex)$},
-      ~r{lib/livin_web/templates/.*(eex)$}
+      ~r{lib/livin_web/templates/.*(eex)$},
+      ~r{lib/livin_web/live/.*(ex)$}
     ]
   ]
 

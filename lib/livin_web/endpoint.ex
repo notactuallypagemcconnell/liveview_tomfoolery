@@ -1,6 +1,8 @@
 defmodule LivinWeb.Endpoint do
   use Phoenix.Endpoint, otp_app: :livin
 
+  socket "/live", Phoenix.LiveView.Socket
+
   socket "/socket", LivinWeb.UserSocket,
     websocket: true,
     longpoll: false
